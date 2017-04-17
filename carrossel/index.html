@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Document</title>
+
+  <link rel="stylesheet" type="text/css" href="owl.carousel.min.css"></head>
+  <style>
+    .container {
+      background-color: red;
+      height: 200px;
+    }
+
+    .container p {
+      margin: 0;
+      padding: 0;
+      line-height: 200px;
+      text-align: center;
+    }
+  </style>
+<body>
+
+  <div class="owl-carousel owl-theme">
+    <div class="container"><p>Conteúdo</p></div>
+    <div class="container"><p>Conteúdo</p></div>
+    <div class="container"><p>Conteúdo</p></div>
+    <div class="container"><p>Conteúdo</p></div>
+    <div class="container"><p>Conteúdo</p></div>
+    <div class="container"><p>Conteúdo</p></div>
+    <div class="container"><p>Conteúdo</p></div>
+  </div>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="owl.carousel.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel();
+    });
+  </script>
+</body>
+</html>
